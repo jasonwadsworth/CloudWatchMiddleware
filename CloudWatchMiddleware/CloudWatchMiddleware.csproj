@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.1</TargetFrameworks>
+    <RootNamespace>JWadsworth.CloudWatchMiddleware</RootNamespace>
+    <AssemblyName>JWadsworth.CloudWatchMiddleware</AssemblyName>
+    <Authors>Jason Wadsworth</Authors>
+    <Company />
+    <Product>CloudWatch Middleware</Product>
+    <Description>Middleware for ASP.Net Core to send metrics to AWS CloudWatch.</Description>
+    <Copyright>2018</Copyright>
+    <PackageTags>aws;cloudwatch;metrics;middleware;aspnetcore</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.CloudWatch" Version="3.3.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.5" />
+  </ItemGroup>
+
+</Project>
